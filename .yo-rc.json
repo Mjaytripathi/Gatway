@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "gateway",
+    "libraryId": "3a55d18f-9c0a-4a6b-9fb3-3275bee7d01b",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Gateway",
+    "solutionShortDescription": "Gateway description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

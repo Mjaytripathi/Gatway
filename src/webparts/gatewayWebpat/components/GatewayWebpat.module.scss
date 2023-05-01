@@ -1,0 +1,133 @@
+*,::before,::after{
+  box-sizing: border-box;
+}
+body,html{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pfo_CustomTable {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.pfo_CustomTable h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  text-transform: uppercase;
+}
+.pfo_CustomTable .pfo_TableCaption {
+  padding: 10px;
+  text-align: center;
+}
+.pfo_directors .pfo_TableCaption {
+  background: #839B70;
+  color: #fff;
+
+}
+.pfo_TableBody {
+  display: inline-block;
+  width: 100%;
+}
+.pfo_tableWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.pfo_TableColumn ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.pfo_TableColumn ul li {
+  display: inline-block;
+  width: 100%;
+  padding: 8px 10px;
+}
+.pfo_TableColumn li a {
+  color: #333;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+}
+.pfo_TableColumn {
+  max-width: 20%;
+  flex: 0 1 20%;
+  border-right: 1px solid #999;
+}
+
+.pfo_TableColumn ul li.tableColumnTitle {
+  display: flex;
+  flex-direction: row;
+}
+.tableColumnTitle span {
+  font-size: 32px;
+  font-weight: bold;
+  color: #006074;
+  line-height: 1;
+  flex: 0 1 30%;
+}
+.pfo_TableColumn ul li.tableColumnTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #E9ECEB;
+  min-height: 64px;
+}
+.pfo_TableColumn li.tableColumnTitle a {
+  color: #1E3551;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  margin-right: 20px;
+  flex: 0 1 70%;
+}
+
+
+
+@media(max-width:992px){
+  .pfo_tableWrapper{
+      flex-wrap: wrap;
+  }
+  .pfo_TableColumn {
+      max-width: 33.33%;
+      flex: 0 1 33.33%;
+  }
+  .pfo_tableWrapper .pfo_TableColumn:last-child{
+      max-width: 50%;
+      flex: 0 1 50%;
+  }
+  .pfo_tableWrapper .pfo_TableColumn:nth-last-child(2){
+      max-width: 50%;
+      flex: 0 1 50%;
+  }
+  .pfo_TableColumn ul li.tableColumnTitle{
+      min-height: 112px;
+  }
+  
+}
+@media(max-width:767px){
+  
+  .pfo_TableColumn {
+      max-width: 50%;
+      flex: 0 1 50%;
+  }
+  .pfo_tableWrapper .pfo_TableColumn:last-child{
+      max-width: 100%;
+      flex: 0 1 100%;
+  }
+}
+
+.two {
+  text-align: center;
+  font-size: 11px;
+  font-weight: 500;
+  color:#333;
+}
+
+

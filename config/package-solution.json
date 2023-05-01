@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "gateway-client-side-solution",
+    "id": "3a55d18f-9c0a-4a6b-9fb3-3275bee7d01b",
+    "version": "3.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Gateway description"
+      },
+      "longDescription": {
+        "default": "Gateway description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "gateway Feature",
+        "description": "The feature that activates elements of the gateway solution.",
+        "id": "b64e7375-1a1f-4f9f-9815-77cacad92002",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/gateway.sppkg"
+  }
+}
